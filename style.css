@@ -110,3 +110,40 @@
 .try:hover{
     background: #d77f81;
 }
+.review{
+    width: 380px;
+    height: 200px;
+}
+.imagis{
+    width: 35px;
+    height: 35px;
+}
+.para2{
+    color: #384A62;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.amina{
+    color: #384A62;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; 
+}
+.deli a{
+    text-decoration: none;
+    color:#1DA1F2;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.ivo a{
+    text-decoration: none;
+    color:#1DA1F2;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    background: #edf6fd;
+}
