@@ -147,3 +147,43 @@
 .main{
     background: #edf6fd;
 }
+.fast{
+    width: 400px;
+    height: 300px;
+}
+.imagi{
+    transform: translateY(65px);
+}
+#turn{
+    color: #384A62;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; 
+    transform: translate(70px,-5px);
+}
+.para3{
+    color:#677F9E;
+    font-size: 15.5px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif; 
+}
+#pop{
+    transform: translate(40px,50px);
+}
+.notice{
+    width: 220px;
+    height: 150px;
+}
+.art a{
+    color: #384A62;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif; 
+}
+.noticers{
+    background: #f7f6f4;
+}
+.footer{
+    width: 280px;
+    height: 400px;
+}
