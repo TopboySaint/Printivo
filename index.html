@@ -6,6 +6,12 @@
     <title>Printivo</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+    .card img:hover{
+        transition: 2s ease;
+        transform: scaleY(1.2);
+    }
+    </style>
 </head>
 <body>
 
@@ -72,7 +78,7 @@
 
         <div class="row justify-content-center gap-4 mt-3 me-0">
             <div class="card" style="width: 17rem;">
-                <img src="images/1440201227_two-sided-business-cards-by-printivo.png" class="card-img-top" alt="..." style="height: 260px; width: 17rem; transform: translate(-13px, -2px);">
+                <img src="images/1440201227_two-sided-business-cards-by-printivo.png" class="card-img-top" id="cardimg" alt="..." style="height: 260px; width: 17rem; transform: translate(-13px, -2px);">
                 <div class="card-body">
                   <h3 class="card-title title pb-2"><a href="">Two-sided Business Cards</a></h3>
                   <p class="card-text start"><a href="">STARTING AT</a></p>
@@ -328,11 +334,54 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex border border-1 border-success p-3 justify-content-center gap-3">
-            <div class="footer border border-1 border-primary"></div>
-            <div class="footer border border-1 border-primary"></div>
-            <div class="footer border border-1 border-primary"></div>
-            <div class="footer border border-1 border-primary"></div>
+
+        <!-- Footer -->
+
+        <div class="container-fluid d-flex p-3 justify-content-center gap-3 all">
+            <div class="footer">
+                <h4 class="pb-3 pt-5 ori">Printivo</h4>
+                <p class="foot"><a href="">About Us</a></p>
+                <p class="foot"><a href="">Contact</a></p>
+                <p class="foot"><a href="">Track Order</a></p>
+                <p class="foot"><a href="">Printivo Promise</a></p>
+                <p class="foot"><a href="">Printivo Blog</a></p>
+                <p class="foot"><a href="">Career</a></p>
+            </div>
+
+            <div class="footer">
+                <h4 class="pb-3 pt-5 ori">Help and Information</h4>
+                <p class="foot"><a href="">Paper Quality</a></p>
+                <p class="foot"><a href="">Privacy policy</a></p>
+                <p class="foot"><a href="">Terms and Conditions</a></p>
+                <p class="foot"><a href="">Font Licenses</a></p>
+                <p class="foot"><a href="">Shipping and Delivery</a></p>
+            </div>
+
+            <div class="footer">
+                <h4 class="pb-3 pt-5 ori">Make Money</h4>
+                <p class="foot"><a href="">Refer a friend & earn N1,000</a></p>
+                <p class="foot"><a href="">Become a Reseller</a></p>
+                <p class="foot"><a href="">Sell your Designs</a></p>
+                <p class="foot"><a href="">Merch Store</a></p>
+            </div>
+
+            <div class="footer">
+                <h4 class="pb-2 pt-5 ori">Follow Us</h4>
+                <img src="images/download (14).svg" alt="" class="">
+                <img src="images/download (15).svg" alt="" class="ps-3">
+                <img src="images/download (16).svg" alt="" class="ps-3">
+                <img src="images/download (17).svg" alt="" class="ps-3">
+                <h4 class="pt-5 ori">Accepted Payments</h4>
+                <img src="images/payment (1).png" alt="" style="width: 200px;">
+                <h4 class="pt-5 ori">Delivery</h4>
+                <img src="images/shipping (2).png" alt="">
+            </div>
+        </div>
+
+        <!-- Copyrights -->
+
+        <div class="container-fluid p-3 last">
+            <p class="text-center pt-3 copy">Copyright © 2023 Printivo. All rights reserved.</p>
         </div>
 
 
